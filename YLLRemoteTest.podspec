@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YLLRemoteTest"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A short description of YLLRemoteTest."
 
   s.description  = "zheshi ce shi"
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
 
 
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+   s.resources = "Assets/*"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
