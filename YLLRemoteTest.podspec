@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YLLRemoteTest"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of YLLRemoteTest."
 
   # This description is used to generate tags and improve search results.
@@ -32,18 +32,8 @@ Pod::Spec.new do |s|
   #
 
   s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => 'LICENSE' }
 
-
-  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the authors of the library, with email addresses. Email addresses
-  #  of the authors are extracted from the SCM log. E.g. $ git log. CocoaPods also
-  #  accepts just a name if you'd rather not provide an email address.
-  #
-  #  Specify a social_media_url where others can refer to, for example a twitter
-  #  profile URL.
-  #
 
   s.author             = { "yuliangliang" => "yuliang1345@163.com" }
   # Or just: s.author    = "yuliangliang"
@@ -65,12 +55,6 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-
-  # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the location from where the source should be retrieved.
-  #  Supports git, hg, bzr, svn and HTTP.
-  #
 
   s.source       = { :git => "https://github.com/yuliang6/YLLRemoteTest.git", :tag => "#{s.version}" }
 
@@ -110,7 +94,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = 'UIKit'
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
