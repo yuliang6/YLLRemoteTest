@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YLLRemoteTest"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "A short description of YLLRemoteTest."
 
   s.description  = "zheshi ce shi"
@@ -24,7 +24,8 @@ Pod::Spec.new do |s|
 
    s.author             = { "yuliangliang" => "yuliang1345@163.com" }
 
-   s.platform     = :ios
+   s.platform     = :ios ,'7.0'
+   s.ios.deployment_target = '7.0'
 
    s.source       = { :git => "https://github.com/yuliang6/YLLRemoteTest.git", :tag => "#{s.version}" }
 
@@ -33,6 +34,15 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "Classes/**/*.h"
 
+
+s.dependency  'MJExtension','3.0.13'
+s.dependency  'SAMKeychain','1.5.2'
+s.dependency  'SDAutoLayout','2.1.7'
+s.dependency 	'SDWebImage','3.8.2'
+s.dependency 	'MJRefresh','3.1.12'
+s.dependency 	'WebViewJavascriptBridge','5.0.5'
+s.dependency  'NJKWebViewProgress','0.2.3'
+s.dependency  'GTSDK','1.5.0'
 
   # s.resource  = "icon.png"
    s.resources = "Assets/*"
